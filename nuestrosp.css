@@ -1,0 +1,86 @@
+.body {
+    width: auto;
+    height: auto;
+}
+
+.quienessomos {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 10vh;
+    margin: 0 auto;
+    background-color: rgba(71, 114, 78, 0.9);
+    border-radius: 15px;
+    gap: 1%;
+}
+
+ol {
+    list-style: none;
+}
+
+.profesionales {
+    margin: 0%;
+
+}
+
+.isaac1 {
+    font-display: flex;
+    text-align: center;
+}
+
+.img1 {
+    width: 30vh;
+    height: 30vh;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.neimy2 {
+    font-display: flex;
+    text-align: center;
+
+}
+
+.img2 {
+    width: 30vh;
+    height: 30vh;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.anzuly1 {
+    font-display: flex;
+    text-align: center;
+}
+
+.img3 {
+    width: 30vh;
+    height: 30vh;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.hannah1 {
+    font-display: flex;
+    text-align: center;
+}
+
+.img4 {
+    width: 30vh;
+    height: 30vh;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.joaquin1 {
+    font-display: flex;
+    text-align: center;
+}
+
+.img5 {
+    width: 30vh;
+    height: 30vh;
+    border-radius: 20px;
+    object-fit: cover;
+}
