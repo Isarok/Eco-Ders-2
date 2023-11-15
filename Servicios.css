@@ -1,0 +1,124 @@
+
+.title-section {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 15%;
+}
+
+.container-servicios-section{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.items {
+    display: flex;
+    height:60vh;
+    flex-direction: column;
+}
+
+.title-services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+    padding-top: 5%;  
+}
+
+h2{
+    font-size: 10vh;
+}
+
+p{
+    text-decoration: none;
+}
+
+.extraone {
+    display: none;
+}
+
+input[type="checkbox"] {
+    appearance: none;
+    display: flex;
+}
+
+label {
+    display: flex;
+    background-color: #47724EE5;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4vh;
+    padding: 2%;
+    width: 30%;
+}
+
+.btnfour ´{
+    display: flex;
+    
+}
+
+label::before {
+    content: 'Leer más';
+    
+}
+
+input[type="checkbox"]:checked ~ label::before {
+    content: 'Leer menos';
+}
+
+
+.extraone:has(~ input[type="checkbox"]:checked ) {
+    display: flex;
+    justify-content: space-evenly;
+    width: 40vh;
+    height: 22.5vh;
+    padding-left: 1.5vh;
+    text-align: justify;
+}
+
+a{
+    text-decoration: none;
+}
+
+.extratwo {
+    display: none;
+}
+
+.extratwo:has(~ input[type="checkbox"]:checked ) {
+    display: flex;
+    justify-content: space-evenly;
+    width: 40vh;
+    height: 22.5vh;
+    padding-left: 1.5vh;
+    text-align: justify;
+}
+
+.extrathree {
+    display: none;
+}
+
+.extrathree:has(~ input[type="checkbox"]:checked ) {
+    display: flex;
+    justify-content: space-evenly;
+    width: 40vh;
+    height: 22.5vh;
+    padding-left: 1.5vh;
+    text-align: justify;
+}
+
+.extrafour {
+    display: none; 
+}
+
+.extrafour:has(~ input[type="checkbox"]:checked ) {
+    display: flex;
+    justify-content: space-evenly;
+    width: 40vh;
+    height: 22.5vh;
+    padding-left: 1.5vh;
+    text-align: justify;
+}
+
+a{
+    text-decoration: none;
+}
