@@ -1,0 +1,40 @@
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5%;
+    background-color: #47724E;
+    color: white;
+}
+
+.contact-details p{
+    margin: 15px 0;
+    line-height: 1.5;
+}
+
+.social-media {
+    display: flex;
+
+    gap: 15px;
+    margin-top: 5%;
+    font-size: 30px;
+    transition: 0.3s;
+    transition-property: transform;
+}
+
+.social-media a:hover{
+    transform: scale(1.2);
+}
+
+
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.copyright{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #47724E;
+    color: white;
+}
